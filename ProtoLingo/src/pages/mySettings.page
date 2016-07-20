@@ -1,0 +1,7 @@
+<apex:page controller="SettingsController" >
+    <apex:repeat value="{!spokenLanguages}" var="language">
+
+        <apex:outputText value="{!language.Language__r.Name__c}"/><br/>
+
+    </apex:repeat>
+</apex:page>
